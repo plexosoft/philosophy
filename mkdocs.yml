@@ -1,0 +1,142 @@
+# GENERAL & NAVs
+site_name: 莉安 (Lì'ān)
+use_directory_urls: false
+nav:
+  - Home: index.md
+
+  - Profile:
+      - Overview: profile/index.md
+      - Personality: profile/personality.md
+      - Communication: profile/communication.md
+      - Hobbies: profile/hobbies.md
+      - Interests: profile/interests.md
+
+  - Preferences:
+      - Overview: preferences/index.md
+      - Food: preferences/food.md
+      - Books: preferences/books.md
+      - Activities: preferences/activities.md
+      - Places: preferences/places.md
+
+  - Life:
+      - Overview: life/index.md
+      - Work: life/work.md
+      - Schedule: life/schedule.md
+      - Home: life/home.md
+      - Routines: life/routines.md
+
+  - Health:
+      - Overview: health/index.md
+      - General: health/general.md
+      - Routines: health/routines.md
+      - Wellbeing: health/wellbeing.md
+
+  - Relationship:
+      - Overview: relationship/index.md
+      - Affection: relationship/affection.md
+      - Communication: relationship/communication.md
+      - Dating: relationship/dating.md
+      - Things to Learn: relationship/things_to_learn.md
+
+  - Plans:
+      - Overview: plans/index.md
+      - Future Plans: plans/future_plans.md
+      - Bucket List: plans/bucket_list.md
+      - Things to Try: plans/things_to_try.md
+      - Shared Ideas: plans/shared_ideas.md
+
+  - Observations:
+      - Overview: observations/index.md
+      - Patterns: observations/patterns.md
+      - Social: observations/social.md
+      - Sensory: observations/sensory.md
+      - Recurring Themes: observations/recurring_themes.md
+
+  - Conversations:
+      - Overview: conversations/index.md
+      - Archive: conversations/archive.md
+
+  - About:
+      - Overview: about/about.md
+
+# PLUGINS
+plugins:
+  - search
+  - offline
+  # - glightbox
+
+# THEME
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+  language: en
+  palette:
+
+    - scheme: slate
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+      primary: pink
+      accent: deep purple
+
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+      primary: pink
+      accent: deep purple
+
+# EXTRA
+extra:
+  mathjax: true
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/plexoio
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/plexoio
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/arellanofrank/
+
+# EXTENSIONS
+markdown_extensions:
+  - tables
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.mark
+  - attr_list
+  - md_in_html
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.tilde
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji # UPDATED Dec 1 2023
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg # COPYRIGHT UPDATED Dec 1 2024
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+copyright: |
+  &copy; 2024 by <a href="https://github.com/plexoio"  target="_blank" rel="noopener">Frank Arellano</a> 
+  with 
+  <a href="https://www.mkdocs.org/"  target="_blank" rel="noopener">MkDocs</a>
