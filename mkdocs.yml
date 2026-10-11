@@ -80,20 +80,19 @@ theme:
     - content.code.copy
   language: en
   palette:
-
     - scheme: slate
       toggle:
         icon: material/toggle-switch-off-outline
-        name: Switch to dark mode
-      primary: pink
-      accent: deep purple
+        name: Switch to light mode
+      primary: blue grey
+      accent: teal
 
     - scheme: default
       toggle:
         icon: material/toggle-switch
-        name: Switch to light mode
-      primary: pink
-      accent: deep purple
+        name: Switch to dark mode
+      primary: blue grey
+      accent: teal
 
 # EXTRA
 extra:
